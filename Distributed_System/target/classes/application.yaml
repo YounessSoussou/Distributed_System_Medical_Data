@@ -1,0 +1,8 @@
+management:
+  metrics:
+    export:
+      graphite:
+        enabled: true
+        host: localhost   # Adresse de votre serveur Graphite
+        port: 2003        # Port de Graphite, par défaut c'est 2003
+        step: 1m          # Fréquence de publication des métriques
